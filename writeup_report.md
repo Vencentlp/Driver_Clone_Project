@@ -117,25 +117,25 @@ The final model architecture (model.py lines 89-101) consisted of a convolution 
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][https://github.com/Vencentlp/Driver_Clone_Project/raw/master/center_2016_12_01_13_30_48_287.jpg]
+![alt text](https://github.com/Vencentlp/Driver_Clone_Project/raw/master/center_2016_12_01_13_30_48_287.jpg)
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn how to drive back to the center of the road when the car is on the side of the road. These images show what a recovery looks like starting from left side to the center of the road :
 
-![alt text][https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_00_587.jpg]
-![alt text][https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_00_656.jpg]
-![alt text][https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_00_725.jpg]
-![alt text][https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_00_793.jpg]
-![alt text][https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_00_863.jpg]
-![alt text][https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_01_070.jpg]
-![alt text][https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_01_210.jpg]
-![alt text][https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_01_348.jpg]
+![alt text](https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_00_587.jpg)
+![alt text](https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_00_656.jpg)
+![alt text](https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_00_725.jpg)
+![alt text](https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_00_793.jpg)
+![alt text](https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_00_863.jpg)
+![alt text](https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_01_070.jpg)
+![alt text](https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_01_210.jpg)
+![alt text](https://github.com/Vencentlp/Driver_Clone_Project/raw/master/recovery/center_2018_06_01_09_58_01_348.jpg)
 
 Then I repeated this process on track two in order to get more data points.
 
 To augment the data sat, I also flipped images and angles thinking that this would add more data to train the model turn in the opposite direction and improve the overfitting.  For example, here is an image that has then been flipped:
 
-![alt text][https://github.com/Vencentlp/Driver_Clone_Project/raw/master/flip_images/flip_image.jpg]
-![alt text][https://github.com/Vencentlp/Driver_Clone_Project/raw/master/flip_images/flip_origin.jpg]
+![alt text](https://github.com/Vencentlp/Driver_Clone_Project/raw/master/flip_images/flip_image.jpg)
+![alt text](https://github.com/Vencentlp/Driver_Clone_Project/raw/master/flip_images/flip_origin.jpg)
 
 Etc ....
 
